@@ -1,0 +1,202 @@
+# OSS Contributor Playbook for Dr. Siddharth Rajasekar
+
+**Goal:** Become a recognized contributor/maintainer in the open-source healthcare + AI ecosystem.
+**Edge:** MBBS-qualified doctor with deep operational expertise in healthcare authority systems, behavioral science, NMC compliance, and content strategy for physicians.
+**Timeline:** 3–6 months to meaningful contributor status; 6–12 months to maintainer consideration.
+
+---
+
+## Your Contribution Lane
+
+You are not competing with engineers on code. You are contributing what engineers literally cannot: clinical domain expertise, medical regulatory knowledge, and real-world healthcare operational frameworks.
+
+Your contributions will fall into these categories:
+
+1. **Clinical accuracy reviews** — Flagging medically incorrect or misleading content in healthcare AI repos
+2. **Regulatory compliance frameworks** — NMC, GMC, AHPRA, HIPAA compliance checklists and guidelines that developers need but can't write
+3. **Healthcare domain content** — Templates, scoring rubrics, patient journey maps, and operational SOPs that make healthcare tools actually useful
+4. **Documentation with clinical context** — Turning engineer-written docs into something healthcare professionals can actually use
+5. **Curated resource additions** — Adding high-quality, clinically validated resources to awesome-lists
+
+---
+
+## Tier 1: Start Here (Week 1–4)
+
+These repos are the easiest entry point. Low barrier, high visibility, and your domain expertise is immediately valuable.
+
+### 1. awesome-healthcare (kakoni/awesome-healthcare)
+
+**What it is:** The most popular curated list of open-source healthcare software, tools, and resources. 3k+ stars.
+
+**Why you:** You know the healthcare software landscape from a practitioner's perspective. Most contributors are developers adding tools they built. A doctor adding clinically-relevant resources with context on why they matter is rare and valuable.
+
+**First 3 moves:**
+
+- **PR #1:** Add 3–5 missing healthcare tools you actually use or know are valuable (must be open-source). Follow their format exactly: `[Tool Name](link) - One line description.` Read their CONTRIBUTING.md first.
+- **PR #2:** Suggest a new category or sub-section that's missing — e.g., "Patient Communication Tools" or "Medical Compliance & Regulatory" if not already present.
+- **PR #3:** Open an issue proposing clinical validation labels — a way to tag which tools have been reviewed/endorsed by healthcare professionals.
+
+**Repo link:** https://github.com/kakoni/awesome-healthcare
+**Contributing guide:** https://github.com/kakoni/awesome-healthcare/blob/master/CONTRIBUTING.md
+
+---
+
+### 2. awesome-healthcare-ai (medtorch/awesome-healthcare-ai)
+
+**What it is:** Curated list of healthcare AI tools, algorithms, datasets, and research papers. Organized by medical specialty.
+
+**Why you — this is your golden ticket:** The maintainer explicitly states they are NOT a medical specialist and there may be mistakes. They need exactly what you are — a doctor who can validate, correct, and expand the clinical content.
+
+**First 3 moves:**
+
+- **PR #1:** Review and improve the content in 2–3 specialty areas you know well (IVF/reproductive medicine, dermatology, dental, orthopedics). Fix any clinical inaccuracies. Add missing landmark papers or tools.
+- **PR #2:** Add a new specialty section for a field that's missing or underrepresented, with curated resources you can vouch for clinically.
+- **PR #3:** Open an issue offering to serve as a clinical reviewer for the repo. Frame it: "I'm an MBBS-qualified doctor. I can validate clinical accuracy across specialty sections. Happy to do ongoing reviews."
+
+**Repo link:** https://github.com/medtorch/awesome-healthcare-ai
+
+---
+
+### 3. Awesome-AI-Agents-for-Healthcare (AgenticHealthAI)
+
+**What it is:** Curated list of research papers, projects, and resources on AI agents for healthcare — including medical image analysis, EHR, counseling, drug discovery, and healthcare administration.
+
+**Why you:** This is newer and growing. Early contributors who add real value get recognized faster. Your understanding of healthcare administration workflows and patient interaction systems is directly relevant.
+
+**First 3 moves:**
+
+- **PR #1:** Add 3–5 relevant papers or projects in areas you know (patient communication, healthcare authority building, clinical decision support).
+- **PR #2:** Propose a new section on "AI Agents for Healthcare Marketing Compliance" or "AI for Medical Content Regulation" — a niche nobody else is covering.
+- **Issue #1:** Start a discussion about clinical validation standards for healthcare AI agents.
+
+**Repo link:** https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare
+
+---
+
+## Tier 2: Deeper Engagement (Week 4–12)
+
+Once you have a few merged PRs and visible activity, move to repos where sustained contribution leads to maintainer-track recognition.
+
+### 4. OpenClaw-Medical-Skills (FreedomIntelligence)
+
+**What it is:** The largest open-source medical AI skills library — 869 skills covering biomedical and clinical research. Each skill is a SKILL.md file that teaches an AI agent specialized domain knowledge.
+
+**Why you:** You already build SKILL.md files (your Brand Doctor and HAOS systems are essentially skill architectures). You understand how to structure clinical knowledge for AI consumption. Most contributors are engineers writing skills about tools they understand technically but not clinically.
+
+**How to contribute:**
+
+- **Review existing skills** in your specialty areas for clinical accuracy. Open issues for any that have medical errors or misleading guidance.
+- **Write new skills** in areas you know deeply — e.g., "NMC Compliance Checker for Medical Content," "Patient Authority Assessment," "Healthcare Brand Audit Framework."
+- **Propose a healthcare compliance skill category** if it doesn't exist — regulatory compliance across jurisdictions (India NMC, UK GMC, US state medical boards).
+
+**Repo link:** https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills
+
+---
+
+### 5. Isaree-Platform (Isaree-ai)
+
+**What it is:** Open-source, medical-compliant AI assistant and agent orchestration engine. Built for HIPAA/GDPR compliance. In active development — not yet production-ready.
+
+**Why you:** They explicitly welcome "healthcare professionals, researchers, and anyone interested in advancing medical AI." An early-stage project with an active team that wants clinical input. Getting in early = getting recognized as a core contributor when the project grows.
+
+**How to contribute:**
+
+- **Start with issues:** Review open issues and comment on anything where your clinical perspective adds value.
+- **Documentation:** Improve their docs with real-world healthcare workflow context. Engineers write docs about how the code works; you can write docs about how the clinical workflow works.
+- **Compliance frameworks:** Contribute NMC/Indian medical regulatory context if they're focused on HIPAA/GDPR. Expanding their compliance coverage to India/Asia is a unique, high-value contribution.
+
+**Repo link:** https://github.com/Isaree-ai/Isaree-Platform
+
+---
+
+### 6. Open Hospital (informatici/openhospital)
+
+**What it is:** Free and open-source Electronic Health Record (EHR) system, deployed in hospitals in developing countries.
+
+**Why you:** They have a dedicated documentation repo (openhospital-doc) and welcome non-developer contributors. As an MBBS doctor, you can review clinical workflows, validate that the EHR design matches real clinical practice, and improve user-facing documentation from a practitioner's perspective.
+
+**How to contribute:**
+
+- **Documentation PRs** in the openhospital-doc repo — review for clinical accuracy, improve workflow descriptions
+- **Open issues** identifying UX problems or clinical workflow gaps you'd notice as a practicing doctor
+- **Join their Slack** and start answering clinical questions that engineers can't
+
+**Repo link:** https://github.com/informatici/openhospital
+**Docs repo:** https://github.com/informatici/openhospital-doc
+
+---
+
+## The Execution Protocol
+
+### Weekly Cadence (2–3 hours/week minimum)
+
+**Monday (30 min):** Check notifications on repos you've contributed to. Respond to PR reviews, comment on new issues.
+
+**Wednesday (60 min):** Work on your next PR. Research, draft, and submit.
+
+**Friday (30 min):** Engage with the community — comment on other people's PRs, answer questions in issues, participate in discussions.
+
+### Contribution Quality Standards
+
+Every PR you submit must:
+
+- Follow the repo's CONTRIBUTING guide exactly (formatting, commit messages, PR template)
+- Be small and focused — one change per PR, not a massive dump
+- Include a clear description of WHY the change matters, not just what it is
+- Reference relevant clinical evidence or professional experience where appropriate
+- Be reviewed by you at least twice before submitting
+
+### What NOT to Do
+
+- Do not submit massive PRs that rewrite entire sections — they won't get reviewed
+- Do not argue with maintainers about merge decisions — accept feedback gracefully, iterate
+- Do not claim expertise you don't have — stick to your clinical and operational knowledge lane
+- Do not disappear after 2 weeks — consistency matters more than volume
+- Do not submit AI-generated content without thorough personal review and clinical validation
+
+---
+
+## Tracking Your Progress
+
+### Month 1 Targets
+- 3–5 merged PRs across Tier 1 repos
+- Active on at least 2 repos (watching, commenting on issues)
+- GitHub profile shows consistent activity
+
+### Month 2–3 Targets
+- 8–12 total merged PRs
+- At least 1 Tier 2 repo with 3+ contributions
+- Recognized by maintainers (they respond to you by name, tag you in relevant issues)
+- Started triaging issues or reviewing other people's PRs
+
+### Month 4–6 Targets
+- 15–20+ total merged PRs
+- Invited as collaborator on at least 1 repo, OR recognized as a domain expert contributor
+- Can legitimately claim "contributor to [repo name]" on applications and profiles
+
+### Month 6–12 (Maintainer Track)
+- Sustained contribution to 1–2 repos with deep involvement
+- Maintainers invite you to core team / grant write access
+- You're triaging issues, reviewing PRs, and shaping roadmap discussions
+
+---
+
+## Your GitHub Profile Setup
+
+Before you start contributing to other repos, make sure your profile signals credibility:
+
+**Bio:** `MBBS | Healthcare Authority Systems Architect | Building open-source tools for doctor positioning & medical content compliance`
+
+**Pinned repos:** Your Brand Doctor README repo + any new flagship repos you create
+
+**Profile README:** Brief paragraph explaining your intersection of medicine and technology. Link to your most impactful contributions.
+
+---
+
+## Priority Order (Start This Week)
+
+1. **Today:** Update your GitHub profile bio and pin your Brand Doctor repo
+2. **This week:** Submit your first PR to `medtorch/awesome-healthcare-ai` — the maintainer literally said they need medical professionals
+3. **This week:** Submit your first PR to `kakoni/awesome-healthcare` — low friction, high visibility
+4. **Next week:** Start watching `OpenClaw-Medical-Skills` and `Isaree-Platform` issues
+5. **Week 3–4:** Submit your first substantive contribution to a Tier 2 repo
